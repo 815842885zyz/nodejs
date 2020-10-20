@@ -1,3 +1,6 @@
+/**
+* node连接mysql对外对外提供接口（增、删、改、查）
+* */
 var bodyParser = require('body-parser');
 //对数据进行解析
 var urlencodeParser = bodyParser.urlencoded({extended:true});
