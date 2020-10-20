@@ -22,10 +22,10 @@ connection.connect((err) => {
   console.log('连接成功');
 });
 app.get('/server', (req, res) => {
-  connection.query("SELECT * from med_alias_copy where alias='紫金'", function (error, results, fields) {
+  connection.query("SELECT * from med_alias_copy where alias='三人间'", function (error, results, fields) {
     if (error) throw error;
     console.log(results);
-    res.status(200).json(results);
+    res.json({status: 200, data: results});
   });
 });
 
