@@ -6,7 +6,24 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+.ant-divider{
+  margin: 0 5px !important;
+}
+.header-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.form-items{
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.form-items .title{
+  width: 120px;
+  margin-right: 8px;
+  text-align: right;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

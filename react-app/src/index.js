@@ -5,13 +5,11 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import 'antd/dist/antd.css';
 
-/*ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+ReactDOM.render(
+<App />,
   document.getElementById('root')
-);*/
-function formatDate(date) {
+);
+/*function formatDate(date) {
 return date.toLocaleDateString();
 }
 
@@ -61,7 +59,7 @@ text={comment.text}
 author={comment.author}
 />,
 document.getElementById('root')
-);
+);*/
 
 
 // If you want your app to work offline and load faster, you can change
